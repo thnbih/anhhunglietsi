@@ -3,6 +3,14 @@ import styles from './copyright.module.css'
 function Copyright() {
     return(
         <>
+        <div className={styles['info-bar-container']}>
+            <div className={styles['info-bar']}>
+                <p>Cung cấp thông tin liệt sĩ</p>
+                <a href="https://forms.gle/ekGbNFTtUE11AuP59" target="_blank" rel="noopener noreferrer">
+                    <button>Tại đây</button>
+                </a>
+            </div>
+        </div>
         <div className={styles['copyright']}>
             <div className={styles['container-footer']}>
                 <div>ĐƠN VỊ THỰC HIỆN:</div> 
