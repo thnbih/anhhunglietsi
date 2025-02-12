@@ -158,7 +158,6 @@ function JumpPage() {
       alt: 'Nghĩa trang Liệt sĩ Thủ Đức',
       title: 'Nghĩa trang Liệt sĩ',
       buttonLabel: 'Thủ Đức',
-      buttonSubLabel: '(ĐANG TRIỂN KHAI)',
       info: (
         <>
           <p>
@@ -176,6 +175,7 @@ function JumpPage() {
           </p>
         </>
       ),
+      buttonUrl: 'https://ntls-thu-duc.vercel.app/',
     },
   ];
 
@@ -214,7 +214,7 @@ function JumpPage() {
                     onClick={(e) => {
                       e.stopPropagation();
                       if (
-                        location.id === 'thuduc'
+                        location.id === 'adb'
                       ) {
                         handleComingSoonButtonClick(e);
                       } else {

@@ -41,7 +41,8 @@ function Carousel() {
       url = 'https://ntls-nha-be.vercel.app/';
     } else if (selectedOption === 'HocMon') {
       url = 'https://ntls-hoc-mon.vercel.app/';
-    }
+    } else if (selectedOption === 'ThuDuc') {
+      url = 'https://ntls-thu-duc.vercel.app/';}
     window.location.href = url;
   };
 
@@ -80,6 +81,7 @@ function Carousel() {
             <option value="CanGio">Nghĩa trang Liệt sĩ Củ Chi</option>
             <option value="NhaBe">Nghĩa trang Liệt sĩ Nhà Bè - Quận 7</option>
             <option value="HocMon">Nghĩa trang Liệt sĩ Huyện Hóc Môn</option>
+            <option value="ThuDuc">Nghĩa trang Liệt sĩ Thủ Đức</option>
           </select>
           <button onClick={handleSearch}>Tìm</button>
         </div>
