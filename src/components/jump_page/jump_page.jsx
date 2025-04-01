@@ -177,6 +177,77 @@ function JumpPage() {
       ),
       buttonUrl: 'https://ntls-thu-duc.vercel.app/',
     },
+    {
+      id: 'binhchanh',
+      imgSrc: 'img/img_nt/BinhChanh.png',
+      alt: 'Nghĩa trang Liệt sĩ Bình Chánh',
+      title: 'Nghĩa trang Liệt sĩ',
+      buttonLabel: 'Bình Chánh',
+      info: (
+        <>
+          <p>
+            <strong>Địa chỉ:</strong> 1A Quốc lộ, Tân Tạo, Bình Tân, Tân Tạo Bình Tân Hồ Chí Minh
+          </p>
+          <p>
+            <strong>Diện tích:</strong> 
+          </p>
+          <p>
+            <strong>Năm xây dựng:</strong>
+          </p>
+          <p>
+            <strong>Số lượng mộ liệt sĩ:</strong> Hơn 1,800 mộ
+          </p>
+        </>
+      ),
+      buttonUrl: 'https://ntls-binh-chanh.vercel.app/',
+    },
+    {
+      id: 'laccanh',
+      imgSrc: 'img/img_nt/LacCanh.png',
+      alt: 'Nghĩa trang Lạc Cảnh',
+      title: 'Nghĩa trang',
+      buttonLabel: 'Lạc Cảnh',
+      info: (
+        <>
+          <p>
+            <strong>Địa chỉ:</strong> Trường Sơn KP4, Phường Linh Trung, Quận Thủ Đức
+          </p>
+          <p>
+            <strong>Diện tích:</strong> 
+          </p>
+          <p>
+            <strong>Năm xây dựng:</strong>
+          </p>
+          <p>
+            <strong>Số lượng mộ liệt sĩ:</strong> Hơn 14,300 mộ
+          </p>
+        </>
+      ),
+      buttonUrl: 'https://ntls-lac-canh.vercel.app/',
+    },
+    {
+      id: 'ChinhSach',
+      imgSrc: 'img/img_nt/ChinhSach.png',
+      alt: 'Nghĩa trang Liệt sĩ Chính Sách',
+      title: 'Nghĩa trang Liệt sĩ',
+      buttonLabel: 'Chính Sách',
+      info: (
+        <>
+          <p>
+            <strong>Địa chỉ:</strong> đường Cây Bài, ấp Cây Trắc, xã Phú Hòa Đông, huyện Củ Chi
+          </p>
+          <p>
+            <strong>Diện tích:</strong> 
+          </p>
+          <p>
+            <strong>Năm xây dựng:</strong>
+          </p>
+          <p>
+            <strong>Số lượng mộ liệt sĩ:</strong> Đang triển khai
+          </p>
+        </>
+      ),
+    },
   ];
 
   return (
@@ -214,7 +285,7 @@ function JumpPage() {
                     onClick={(e) => {
                       e.stopPropagation();
                       if (
-                        location.id === 'adb'
+                        location.id === 'ChinhSach'
                       ) {
                         handleComingSoonButtonClick(e);
                       } else {
@@ -233,7 +304,7 @@ function JumpPage() {
         </div>
       ))}
 
-      {/* {showModal && (
+      {showModal && (
         <div className={styles['modal-overlay']}>
           <div className={styles['modal-content']}>
             <span className={styles['close']} onClick={handleCloseModal}>
@@ -246,7 +317,7 @@ function JumpPage() {
             </p>
           </div>
         </div>
-      )} */}
+      )}
     </div>
   );
 }
