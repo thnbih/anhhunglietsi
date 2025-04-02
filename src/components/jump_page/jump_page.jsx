@@ -206,7 +206,7 @@ function JumpPage() {
       imgSrc: 'img/img_nt/LacCanh.png',
       alt: 'Nghĩa trang Lạc Cảnh',
       title: 'Nghĩa trang',
-      buttonLabel: 'Lạc Cảnh',
+      buttonLabel: 'Thành phố Hồ Chí Minh (Nghĩa trang Lạc Cảnh)',
       info: (
         <>
           <p>

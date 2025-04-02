@@ -87,7 +87,7 @@ function Carousel() {
             <option value="HocMon">Nghĩa trang Liệt sĩ Huyện Hóc Môn</option>
             <option value="ThuDuc">Nghĩa trang Liệt sĩ Thủ Đức</option>
             <option value="BinhChanh">Nghĩa trang Liệt sĩ Bình Chánh - Bình Tân</option>
-            <option value="LacCanh">Nghĩa trang Liệt sĩ Lạc Cảnh</option>
+            <option value="LacCanh">Nghĩa trang Thành phố Hồ Chí Minh (Nghĩa trang Lạc Cảnh)</option>
           </select>
           <button onClick={handleSearch}>Tìm</button>
         </div>
