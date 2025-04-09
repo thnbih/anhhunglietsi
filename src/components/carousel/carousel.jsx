@@ -79,15 +79,13 @@ function Carousel() {
           </p>
           <select value={selectedOption} onChange={handleOptionChange}>
             <option value="HCM">Nghĩa trang Liệt sĩ TP. Hồ Chí Minh</option>
-            <option value="RungSac">
-              Nghĩa trang Liệt sĩ Rừng Sác Cần Giờ
-            </option>
-            <option value="CanGio">Nghĩa trang Liệt sĩ Củ Chi</option>
-            <option value="NhaBe">Nghĩa trang Liệt sĩ Nhà Bè - Quận 7</option>
-            <option value="HocMon">Nghĩa trang Liệt sĩ Huyện Hóc Môn</option>
-            <option value="ThuDuc">Nghĩa trang Liệt sĩ Thủ Đức</option>
-            <option value="BinhChanh">Nghĩa trang Liệt sĩ Bình Chánh - Bình Tân</option>
             <option value="LacCanh">Nghĩa trang Thành phố Hồ Chí Minh (Nghĩa trang Lạc Cảnh)</option>
+            <option value="RungSac">Nghĩa trang Liệt sĩ Rừng Sác Cần Giờ</option>
+            <option value="CanGio">Nghĩa trang Liệt sĩ huyện Củ Chi</option>
+            <option value="NhaBe">Nghĩa trang liệt sĩ Nhà Bè (Quận 7 - Nhà Bè)</option>
+            <option value="HocMon">Nghĩa trang Liệt sĩ huyện Hóc Môn</option>
+            <option value="ThuDuc">Nghĩa trang Liệt sĩ Thành phố Thủ Đức</option>
+            <option value="BinhChanh">Nghĩa trang Liệt sĩ Bình Chánh - Bình Tân</option>
           </select>
           <button onClick={handleSearch}>Tìm</button>
         </div>

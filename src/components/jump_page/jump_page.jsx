@@ -58,7 +58,7 @@ function JumpPage() {
       imgSrc: 'img/img_nt/cuchi.png',
       alt: 'Nghĩa trang Liệt sĩ Củ Chi',
       title: 'Nghĩa trang Liệt sĩ',
-      buttonLabel: 'Củ Chi',
+      buttonLabel: 'huyện Củ Chi',
       info: (
         <>
           <p>
@@ -107,7 +107,7 @@ function JumpPage() {
       imgSrc: 'img/img_nt/nha be.png',
       alt: 'Nghĩa trang Liệt sĩ Nhà Bè',
       title: 'Nghĩa trang Liệt sĩ',
-      buttonLabel: 'Quận 7 - Nhà Bè',
+      buttonLabel: 'Nhà Bè (Quận 7 - Nhà Bè)',
       info: (
         <>
           <p>
@@ -130,7 +130,7 @@ function JumpPage() {
     {
       id: 'hocmon',
       imgSrc: 'img/img_nt/hocmon.png',
-      alt: 'Nghĩa trang Liệt sĩ Hóc Môn',
+      alt: 'Nghĩa trang Liệt sĩ huyện Hóc Môn',
       title: 'Nghĩa trang Liệt sĩ',
       buttonLabel: 'Hóc Môn',
       info: (
@@ -157,7 +157,7 @@ function JumpPage() {
       imgSrc: 'img/img_nt/tp thu duc.png',
       alt: 'Nghĩa trang Liệt sĩ Thủ Đức',
       title: 'Nghĩa trang Liệt sĩ',
-      buttonLabel: 'Thủ Đức',
+      buttonLabel: 'Thành phố Thủ Đức',
       info: (
         <>
           <p>
@@ -230,7 +230,7 @@ function JumpPage() {
       imgSrc: 'img/img_nt/ChinhSach.png',
       alt: 'Nghĩa trang Liệt sĩ Chính Sách',
       title: 'Nghĩa trang Liệt sĩ',
-      buttonLabel: 'Chính Sách',
+      buttonLabel: 'Chính Sách Thành phố Hồ Chí Minh',
       info: (
         <>
           <p>
