@@ -229,7 +229,7 @@ function JumpPage() {
       id: 'ChinhSach',
       imgSrc: 'img/img_nt/ChinhSach.png',
       alt: 'Nghĩa trang Liệt sĩ Chính Sách',
-      title: 'Nghĩa trang Liệt sĩ',
+      title: 'Nghĩa trang',
       buttonLabel: 'Chính Sách Thành phố Hồ Chí Minh',
       info: (
         <>
@@ -247,6 +247,7 @@ function JumpPage() {
           </p>
         </>
       ),
+      buttonUrl: 'https://ntls-chinh-sach.vercel.app/',
     },
   ];
 
@@ -285,7 +286,7 @@ function JumpPage() {
                     onClick={(e) => {
                       e.stopPropagation();
                       if (
-                        location.id === 'ChinhSach'
+                        location.id === ''
                       ) {
                         handleComingSoonButtonClick(e);
                       } else {

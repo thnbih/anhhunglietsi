@@ -47,6 +47,8 @@ function Carousel() {
     url = 'https://ntls-binh-chanh.vercel.app/';}
         else if (selectedOption === 'LacCanh') {
     url = 'https://ntls-lac-canh.vercel.app/';}
+    else if (selectedOption === 'ChinhSach') {
+      url = 'https://ntls-chinh-sach.vercel.app/';}
     window.location.href = url;
   };
 
@@ -86,6 +88,7 @@ function Carousel() {
             <option value="HocMon">Nghĩa trang Liệt sĩ huyện Hóc Môn</option>
             <option value="ThuDuc">Nghĩa trang Liệt sĩ Thành phố Thủ Đức</option>
             <option value="BinhChanh">Nghĩa trang Liệt sĩ Bình Chánh - Bình Tân</option>
+            <option value="ChinhSach">Nghĩa trang Chính sách Thành phố Hồ Chí Minh</option>
           </select>
           <button onClick={handleSearch}>Tìm</button>
         </div>
